@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: togetherjs-hub
+    env: node
+    plan: free
+    rootDir: hub
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
