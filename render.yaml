@@ -3,7 +3,7 @@ services:
     name: togetherjs-hub
     env: node
     plan: free
-    rootDir: 
+    rootDir: .
     buildCommand: npm install
     startCommand: node hub/server.js
     envVars:
