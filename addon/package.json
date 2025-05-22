@@ -11,7 +11,7 @@
             "title": "Hub URL", 
             "type": "string", 
             "description": "Override the location of the hub", 
-            "value": "https://hub.togetherjs.com", 
+            "value": "https://togetherjs-hub-ixsz.onrender.com", 
             "name": "hubBase"
         }, 
         {
