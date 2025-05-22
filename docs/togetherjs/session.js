@@ -49,6 +49,9 @@ define(["require", "util", "channels", "jquery", "storage"], function (require, 
     assert(id, "URL cannot be resolved before TogetherJS.shareId has been initialized");
     TogetherJS.config.close("hubBase");
     var hubBase = TogetherJS.config.get("hubBase");
+    if (!hubBase) {
+      hubBase = "https://togetherjs-hub-ixsz.onrender.com";
+    }
     return hubBase.replace(/\/*$/, "") + "/hub/" + id;
   };
 
