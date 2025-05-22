@@ -225,10 +225,12 @@ var wsServer = new WebSocketServer({
     autoAcceptConnections: false
 });
 
+const allowedOrigins = [
+  "https://zedttxj.github.io"
+];
+
 function originIsAllowed(origin) {
-  // Unfortunately the origin will be whatever page you are sharing,
-  // which could be any origin
-  return true;
+  return allowedOrigins.includes(origin);
 }
 
 var allConnections = {};
