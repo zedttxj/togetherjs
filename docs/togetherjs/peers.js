@@ -585,6 +585,6 @@ define(["util", "session", "storage", "require", "templates"], function (util, s
       }
     }
   });
-
+  peers.peers = Peer.peers;
   return peers;
 });
