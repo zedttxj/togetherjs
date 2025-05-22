@@ -79,7 +79,7 @@
 
   var styleSheet = "/togetherjs/togetherjs.css";
 
-  var baseUrl = "https://zedttxj.github.io/togetherjs";
+  var baseUrl = "https://togetherjs-hub-ixsz.onrender.com";
   if (baseUrl == "__" + "baseUrl__") {
     // Reset the variable if it doesn't get substituted
     baseUrl = "";
