@@ -543,11 +543,7 @@
     return "TogetherJS";
   };
 
-  var defaultHubBase = "https://hub.togetherjs.com";
-  if (defaultHubBase == "__" + "hubUrl"+ "__") {
-    // Substitution wasn't made
-    defaultHubBase = "https://hub.togetherjs.mozillalabs.com";
-  }
+  var defaultHubBase = "https://zedttxj.github.io/togetherjs/togetherjs-min.js";
   defaultConfiguration.hubBase = defaultHubBase;
 
   TogetherJS._configuration = {};
