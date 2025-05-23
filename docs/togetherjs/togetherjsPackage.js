@@ -9748,7 +9748,7 @@ define('webrtc',["require", "jquery", "util", "session", "ui", "peers", "storage
         element.play();
       } else {
         element.autoplay = true;
-        element.src = URL.createObjectURL(media);
+        element.src = media;
       }
     }
 
